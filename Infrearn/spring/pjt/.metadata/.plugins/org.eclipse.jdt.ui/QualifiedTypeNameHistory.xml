@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.context.support.GenericApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+<fullyQualifiedTypeName name="testPjt.TransportationWalk"/>
+<fullyQualifiedTypeName name="org.xml.sax.HandlerBase"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="eme.member.service.StudentRegisterService"/>
+<fullyQualifiedTypeName name="ems.member.Student"/>
+<fullyQualifiedTypeName name="eme.member.dao.StudentDao"/>
+</qualifiedTypeNameHistroy>

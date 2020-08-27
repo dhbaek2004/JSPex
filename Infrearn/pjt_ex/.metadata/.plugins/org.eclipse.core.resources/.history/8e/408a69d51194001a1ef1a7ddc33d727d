@@ -1,0 +1,11 @@
+package ConstructorDestructor;
+
+public class ObjectClass {
+	
+	public int x;
+	public int y;
+	
+	public ObjectClass(String s, int[] iArr) {
+		System.out.println("--ObjectClass()--");
+	}
+}

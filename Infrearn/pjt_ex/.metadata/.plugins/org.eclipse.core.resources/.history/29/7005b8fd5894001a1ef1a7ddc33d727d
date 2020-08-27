@@ -1,0 +1,13 @@
+package StringType;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		String str = new String("JAVA");
+		System.out.println("str : " + str);
+		
+		str = str + "_8";
+		System.out.println("str : " + str);
+	}
+
+}

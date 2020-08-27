@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Web 커피 메뉴</title>
+</head>
+
+<body>
+
+	<a id="section1">시작 지점</a>	
+	<h1>Web 커피 메뉴</h1>
+	<h2>아메리카노 5000원</h2>
+	<p>에스프레소에 물을 추가한 것입니다.</p>
+	
+	<h2>카페오레 6000원</h2>
+	<p>에스프레소에 우유를 넣은 커피입니다.</p>
+	
+	<h2>카푸치노 6000원</h2>
+	<p>커피 위에 우유거품을 얹은 커피 입니다.</p>
+	
+	<ul>
+		<li>에스프레소</li>
+		<li>아메리카노</li>
+		<li>카페라떼</li>
+	</ul>
+	 
+	<ol>
+		<li>에스프레소</li>
+		<li>아메리카노</li>
+		<li>카페라떼</li>
+	</ol>
+	
+	<a href="http://www.google.com/" target="_blank">추가 정보는 여기를 클릭!</a>
+	<p>target 속성이 _blank이므로 링크는 새 탭에서 열립니다.</p>
+	<a href="http://www.google.com/" target="_self">추가 정보는 여기를 클릭!</a>
+	<p>target 속성이 _self이므로 링크는 현재 탭에서 열립니다.</p>
+	<a href="http://www.google.com/" target="_parent">추가 정보는 여기를 클릭!</a>
+	<p>target 속성이 _parent이므로 링크는 부모 프레임에서 열립니다.</p>
+	<a href="http://www.google.com/" target="_top">추가 정보는 여기를 클릭!</a>
+	<p>target 속성이 _top이므로 현재 윈도우에 새로운 페이지가 열리고 모든 프레임을 취소합니다.</p>
+	
+	<a href="#section1">시작 지점으로 가려면 여기를 클릭.</a>
+	
+	<p> Hello HTML!</p>
+	<p> Hello HTML!</p>
+	<p> Hello HTML!</p>
+	<p> Hello HTML!</p>
+	<p> Hello HTML!</p>
+	<p> Hello HTML!</p>
+	<p> Hello HTML!</p>
+	<p> Hello HTML!</p>
+	<p> Hello HTML!</p>
+
+	
+	<a href="mailto:dhbaek2004@naver.com?subject=Feedback">메일 보내기</a> <br>
+	
+	<a href="http://www.company.com/data.zip">다운로드 링크</a> <br>
+	
+	<p> <img src="americano.png" width="300" height="300"> </p>
+	
+	
+</body>
+
+
+</html>

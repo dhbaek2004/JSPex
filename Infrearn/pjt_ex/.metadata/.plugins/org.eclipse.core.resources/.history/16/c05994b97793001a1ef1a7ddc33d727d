@@ -1,0 +1,14 @@
+package method;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		ChildClass child1 = new ChildClass();
+		child1.name = "hong gil dong";
+		child1.gender = "Male";
+		child1.age = 20;
+		child1.getInfo();
+	}
+
+}

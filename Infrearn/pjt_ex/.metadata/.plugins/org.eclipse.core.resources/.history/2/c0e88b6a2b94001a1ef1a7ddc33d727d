@@ -1,0 +1,29 @@
+package interfaceTest;
+
+public class ToyRobot implements Toy {
+
+	@Override
+	public void walk() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void alarm() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void light() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

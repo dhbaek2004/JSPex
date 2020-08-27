@@ -1,0 +1,60 @@
+package Exception;
+
+import java.util.ArrayList;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+//		int i = 10;
+//		int j = 0;
+//		int r = 0;
+//		
+//		System.out.println("Exception BEFORE");
+//		
+//		try {
+//			r = i / j;
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			String msg = e.getMessage();
+//			System.out.println("error msg : " + msg);
+//		}
+//		
+//		System.out.println("Exception AFTER");
+		
+		Scanner scanner = new Scanner(System.in);
+		int i, j;
+		
+		ArrayList<String> list = null;
+		
+		int[] iArr = {0, 1, 2, 3, 4};
+		
+		System.out.println("Eexception BEFORE");
+		
+		try {
+			System.out.print("input i : ");
+			i = scanner.nextInt();
+			System.out.print("input j : ");
+			j = scanner.nextInt();
+			
+			System.out.println("i / j = " + (i / j));
+			
+			for(int k = 0; k < 5; k++) {
+				System.out.println("iArr[" + k + "] : " + iArr[k]);
+			}
+			
+			System.out.println("list.size() = " + list.size());
+			
+		} catch (InputMismatchException e) {
+			e.printStackTrace();
+		} catch (ArrayIndexOutOfBoundsException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("Eexception AFTER");
+	}
+
+}

@@ -1,0 +1,9 @@
+package ConstructorDestructor;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ObjectClass obj1 = new ObjectClass(); //default 생성자는 자동으로 생성된다.
+	}
+
+}

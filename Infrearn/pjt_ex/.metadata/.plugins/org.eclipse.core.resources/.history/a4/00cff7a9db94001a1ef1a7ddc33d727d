@@ -1,0 +1,28 @@
+package InputOutput;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		// read()
+		InputStream inputStream = null;
+		try {
+			
+			inputStream = new FileInputStream("C:\\eclipse-workspace\\Infrearn\\pjt_ex\\hello.txt");
+			int data = 0;
+			
+			while(true) {
+				try {
+					data = inputStream.read();
+				} catch (Exception e) {
+					// TODO: handle exception
+				}
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+} 

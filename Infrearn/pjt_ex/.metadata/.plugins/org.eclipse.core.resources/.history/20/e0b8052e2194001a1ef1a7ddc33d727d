@@ -1,0 +1,12 @@
+package inherit;
+
+public class ParentClass {
+	
+	public ParentClass() {
+		System.out.println("--ParentClass Constructor--");
+	}
+	
+	private void parentFun() {
+		System.out.println("parentFun()");
+	}
+}

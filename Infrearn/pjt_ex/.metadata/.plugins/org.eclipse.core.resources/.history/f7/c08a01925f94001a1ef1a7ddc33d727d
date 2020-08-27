@@ -1,0 +1,17 @@
+package Exception;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		int i = 10;
+		int j = 0;
+		int r = 0;
+		
+		System.out.println("Exception BEFORE");
+		
+		r = i / j;
+		
+		System.out.println("Exception AFTER");
+	}
+
+}

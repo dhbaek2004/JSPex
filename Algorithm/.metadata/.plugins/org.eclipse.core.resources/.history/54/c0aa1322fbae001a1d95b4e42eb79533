@@ -1,0 +1,10 @@
+package Practice01;
+
+public class ThreeNumber {
+// 주어진 세 정수 A B C 중 두번째로 큰 수를 출력
+
+	public static void main(String[] args) {
+		
+	}
+
+}

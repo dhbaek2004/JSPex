@@ -1,0 +1,11 @@
+package ConstructorDestructor;
+
+public class ObjectClass {
+	
+	public int x;
+	public int y;
+	
+	public ObjectClass(St) {
+		System.out.println("--ObjectClass()--");
+	}
+}

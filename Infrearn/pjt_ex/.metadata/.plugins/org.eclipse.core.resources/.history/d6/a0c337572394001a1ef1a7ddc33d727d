@@ -1,0 +1,17 @@
+package inherit;
+
+public class SecondChaildClass extends ParentClass {
+	
+	public SecondChaildClass() {
+		System.out.println("--ChildClass Constructor--");
+	}
+	
+	public void childFun() {
+		System.out.println("childFun()");
+	}
+	
+	@Override
+	public void makeJajang() {
+		System.out.println(" -- more delicious makeJajang --");
+	}
+}

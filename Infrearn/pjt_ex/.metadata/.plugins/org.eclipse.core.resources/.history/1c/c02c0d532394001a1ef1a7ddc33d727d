@@ -1,0 +1,16 @@
+package inherit;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		FirstChaildClass ch = new FirstChaildClass();
+		ch.childFun();
+		ch.parentFun();
+		
+		ch.makeJajang();
+		
+//		childClass1.privatePatentFun();
+	}
+
+}
