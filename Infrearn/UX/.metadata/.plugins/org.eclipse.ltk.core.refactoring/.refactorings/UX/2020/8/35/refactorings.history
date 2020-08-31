@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;UX/src/3AM Honjowolf Freestyle w DEAN, Kim Ximya.mp3&apos; to &apos;music.mp3&apos;" description="Rename resource &apos;3AM Honjowolf Freestyle w DEAN, Kim Ximya.mp3&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/3AM Honjowolf Freestyle w DEAN, Kim Ximya.mp3" name="music.mp3" stamp="1598443341951" updateReferences="true"/>
-</session>

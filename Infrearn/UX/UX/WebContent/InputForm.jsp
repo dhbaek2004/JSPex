@@ -63,9 +63,26 @@
 			<option value="kia">KIA</option>		
 		</select>
 		
+		<fieldset>
+			<legend>인적사항입력</legend>
+			이름 : 	<input type="text"><br>
+			전화번호 : <input type="text"><br>
+			주소 : 	<input type="text"><br>		
+		</fieldset>
 		
+		<label for="male">남성</label>
+		<input type="radio" name="gender" id="male" value="male"><br>
+		<label for="female">여성</label>
+		<input type="radio" name="gender" id="female" value="female"><br>
+	</form>
+	
+	<form enctype="multipart/form-data">
+		<input type="file" accept="image/jpg, image/gif">
+	
 	</form>
 	<br>
+	
+	
 	
 
 </body>
